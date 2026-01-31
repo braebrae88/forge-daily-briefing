@@ -11,13 +11,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
   * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
-    --forge-primary: #0F172A;
-    --forge-accent: #3B82F6;
-    --forge-accent-light: #60A5FA;
-    --forge-accent-glow: rgba(59,130,246,0.15);
-    --forge-surface: #1E293B;
-    --forge-surface-2: #334155;
-    --forge-border: #475569;
+    --forge-primary: #0D1B2A;
+    --forge-accent: #2EC4B6;
+    --forge-accent-light: #3DD8C8;
+    --forge-accent-glow: rgba(46,196,182,0.15);
+    --forge-surface: #1B2838;
+    --forge-surface-2: #2A3A4E;
+    --forge-border: #3D5068;
     --forge-text: #F1F5F9;
     --forge-text-secondary: #94A3B8;
     --forge-text-muted: #64748B;
@@ -26,7 +26,7 @@
     --forge-danger: #EF4444;
     --forge-purple: #8B5CF6;
     --forge-cyan: #06B6D4;
-    --forge-gradient: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #06B6D4 100%);
+    --forge-gradient: linear-gradient(135deg, #2EC4B6 0%, #1A9E93 50%, #0D7377 100%);
     --radius: 16px;
     --radius-sm: 10px;
   }
@@ -35,8 +35,10 @@
   /* Header */
   .header { background: var(--forge-primary); padding: 20px 20px 0; position: sticky; top: 0; z-index: 50; border-bottom: 1px solid rgba(71,85,105,0.3); }
   .header-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
-  .header-logo { width: 36px; height: 36px; background: var(--forge-gradient); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 700; color: white; }
-  .header-title { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--forge-text); letter-spacing: -0.3px; }
+  .header-logo { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; }
+  .header-title { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .header-title .forge { color: var(--forge-text); }
+  .header-title .health { color: var(--forge-accent); }
   .header-subtitle { font-size: 0.7rem; color: var(--forge-text-muted); font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; }
 
   /* Date Navigation */
@@ -163,15 +165,18 @@
   .expanded .expand-content { max-height: 1000px; }
   .expand-hint { font-size: 0.68rem; color: var(--forge-text-muted); margin-top: 8px; }
   .expanded .expand-hint { display: none; }
+  .priority-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 6px; font-size: 0.68rem; font-weight: 600; margin-top: 8px; }
+  .priority-badge.high { background: rgba(239,68,68,0.15); color: var(--forge-danger); }
+  .priority-badge.medium { background: rgba(245,158,11,0.15); color: var(--forge-warning); }
 </style>
 </head>
 <body>
 
 <div class="header">
   <div class="header-brand">
-    <div class="header-logo">F</div>
+    <div class="header-logo">🔥</div>
     <div>
-      <div class="header-title">FORGE HEALTH</div>
+      <div class="header-title"><span class="forge">FORGE</span> <span class="health">HEALTH</span></div>
       <div class="header-subtitle">Daily Intelligence Briefing</div>
     </div>
   </div>
@@ -370,11 +375,14 @@ function renderBriefing(dateStr) {
     html += '<div class="section"><div class="section-label"><div class="section-icon events">📅</div><div class="section-title">Events & Webinars</div></div>';
     data.events.forEach(function(e) {
       html += '<div class="card event-card">';
-      html += '<div class="card-title">' + esc(e.name) + '</div>';
-      html += '<div class="card-source">' + esc(e.date) + ' · ' + esc(e.location || 'Virtual') + '</div>';
+      html += '<div class="card-header"><div><div class="card-title">' + esc(e.name) + '</div>';
+      html += '<div class="card-source">📍 ' + esc(e.location || 'Virtual') + ' · 🗓️ ' + esc(e.date) + '</div></div></div>';
+      if (e.priority) html += '<div class="priority-badge ' + e.priority + '">' + (e.priority === 'high' ? '🔴 Must Attend' : '🟡 Worth Watching') + '</div>';
       html += '<div class="card-body">' + esc(e.description || '') + '</div>';
       html += '<div class="card-actions">';
-      if (e.url) html += '<a class="action-btn primary" href="' + esc(e.url) + '" target="_blank">🔗 Register</a>';
+      if (e.url) html += '<a class="action-btn primary" href="' + esc(e.url) + '" target="_blank">🎟️ Register Now</a>';
+      var evtSaved = isItemSaved('event', esc(e.name));
+      html += '<div class="action-btn' + (evtSaved ? ' saved' : '') + '" onclick="toggleSave(\'event\',\'' + esc(e.name).replace(/'/g, "\\'") + '\',\'' + esc(e.name).replace(/'/g, "\\'") + '\')">' + (evtSaved ? '✅ Saved' : '💾 Save') + '</div>';
       html += '</div></div>';
     });
     html += '</div>';

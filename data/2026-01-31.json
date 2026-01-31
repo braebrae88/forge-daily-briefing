@@ -7,7 +7,7 @@
     "summary": "NIL deal management platform for college athletes. Centralizes brand partnerships, auto-extracts contract terms from DMs, tracks payments and deadlines, generates compliance reports.",
     "scores": { "opportunity": 8, "problem": 9, "feasibility": 8, "timing": 8 },
     "revenueEstimate": "$1M-$10M ARR",
-    "healthcareAngle": "Not directly healthcare — but the pattern is powerful: a governance + tracking layer for a chaotic new market with compliance requirements. That's exactly what Lumen SDK does for clinical AI. Validates the thesis that runtime governance layers are needed wherever high-stakes decisions meet regulatory pressure.",
+    "healthcareAngle": "Not directly healthcare — but the pattern is powerful: a governance + tracking layer for a chaotic new market with compliance requirements. That's exactly what LUMEN SDK does for clinical AI. Validates the thesis that runtime governance layers are needed wherever high-stakes decisions meet regulatory pressure.",
     "verdict": "skip",
     "verdictNote": "Skip for building, but validates your thesis."
   },
@@ -17,7 +17,7 @@
       "source": "HealthTech Magazine",
       "date": "2026-01-28",
       "url": "https://healthtechmagazine.net/article/2026/01/tech-trends-healthcare-it-leaders-get-real-state-ai-2026",
-      "takeaway": "Seven CIOs surveyed post-pilot. Nursing staff excited to leverage AI for care model reimagination. Orgs piloting agentic AI for chart review, discharge summaries, clinical registry abstraction. CHAI's head of operations quoted — your SDK aligns directly with their framework.",
+      "takeaway": "Seven CIOs surveyed post-pilot. Nursing staff excited to leverage AI for care model reimagination. Orgs piloting agentic AI for chart review, discharge summaries, clinical registry abstraction. CHAI's head of operations quoted — LUMEN SDK aligns directly with their framework.",
       "linkedinAngle": "The gap between pilot enthusiasm and production governance is where FORGE Health lives. These CIOs are excited — but who's ensuring defensibility at runtime?"
     },
     {
@@ -33,7 +33,7 @@
       "source": "Journal of Medical Internet Research",
       "date": "2026-01-10",
       "url": "https://www.jmir.org/2026/1/e86550",
-      "takeaway": "Peer-reviewed paper proposing a 3-tier competency framework for clinicians using LLMs. Covers bias detection, security, accountability, prompt engineering. The academic world is catching up to what Lumen SDK already does — runtime governance for clinical AI.",
+      "takeaway": "Peer-reviewed paper proposing a 3-tier competency framework for clinicians using LLMs. Covers bias detection, security, accountability, prompt engineering. The academic world is catching up to what LUMEN SDK already does — runtime governance for clinical AI.",
       "linkedinAngle": "Academia is building frameworks. But frameworks don't enforce themselves. What happens at the moment a clinical AI produces a recommendation? That's the gap."
     }
   ],
@@ -42,16 +42,49 @@
       "author": "Joshua Liu, MD",
       "authorTitle": "Healthcare AI Leader",
       "url": "https://www.linkedin.com/posts/joshuapliu_what-an-amazing-healthcare-ai-executive-summit-activity-7423161290640121856-00Gj",
-      "insight": "15 takeaways from Nabla's Healthcare AI Executive Summit. Key points: (1) As ambient AI floods systems, automated Clinical Decision Support raises questions about over-controlling physicians — this is the exact tension Lumen SDK resolves. (2) AI may soon be like ultrasound — malpractice NOT to use it, making defensibility mandatory. (3) AI-draft patient messages only used 20% of time — clinicians need trust, not just output.",
+      "insight": "15 takeaways from Nabla's Healthcare AI Executive Summit. Key points: (1) As ambient AI floods systems, automated Clinical Decision Support raises questions about over-controlling physicians — the exact tension LUMEN SDK resolves. (2) AI may soon be like ultrasound — malpractice NOT to use it, making defensibility mandatory. (3) AI-draft patient messages only used 20% of time — clinicians need trust, not just output.",
       "tags": ["governance", "clinical-ai", "decision-support"]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "name": "ViVE 2026",
+      "date": "Feb 22-25, 2026",
+      "location": "Los Angeles, CA",
+      "description": "Premier digital health event for decision-makers. Healthcare AI, interoperability, digital transformation. Major vendor presence — ideal for LUMEN SDK positioning and CIO networking.",
+      "url": "https://hlth.com/events/vive/",
+      "priority": "high"
+    },
+    {
+      "name": "HIMSS26 Global Health Conference",
+      "date": "Mar 9-12, 2026",
+      "location": "Las Vegas, NV",
+      "description": "The biggest health IT event globally. 40,000+ attendees. AI track, governance panels, vendor expo. CHAI will have presence. This is where you need to be for LUMEN SDK visibility.",
+      "url": "https://www.himssconference.com",
+      "priority": "high"
+    },
+    {
+      "name": "The New Wave of AI in Healthcare 2026",
+      "date": "2026 (date TBC)",
+      "location": "New York, NY",
+      "description": "New York Academy of Sciences event. AI reshaping diagnosis, treatment, and care delivery. Strong academic + research angle — great for LUMEN credibility.",
+      "url": "https://www.nyas.org/shaping-science/events/the-new-wave-of-ai-in-healthcare-2026/",
+      "priority": "medium"
+    },
+    {
+      "name": "HIMSS AI in Healthcare Forum",
+      "date": "2026 (date TBC)",
+      "location": "Virtual / TBC",
+      "description": "Two days of panels, keynotes, case studies focused specifically on AI in healthcare. Live demos, networking. Directly aligned to LUMEN SDK positioning.",
+      "url": "https://www.himss.org/events-overview/ai-in-healthcare-forum/",
+      "priority": "medium"
+    }
+  ],
   "quote": {
     "text": "Leaders who are willing to adjust and keep their vision future-focused will separate themselves from the pack in 2026.",
     "author": "Tony Galati",
     "source": "Forbes, Jan 26 2026",
-    "reflection": "You left Microsoft. You built Lumen. You're talking to an AI at 5am about go-to-market strategy. You're already separated from the pack. Now it's about finishing what you started."
+    "reflection": "You left Microsoft. You built LUMEN. You're talking to an AI at 5am about go-to-market strategy. You're already separated from the pack. Now it's about finishing what you started."
   },
   "videos": []
 }
