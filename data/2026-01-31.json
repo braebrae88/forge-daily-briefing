@@ -1,0 +1,57 @@
+{
+  "date": "2026-01-31",
+  "idea": {
+    "title": "Deal Vault — Brand deal dashboard for college athletes",
+    "source": "ideabrowser.com",
+    "url": "https://www.ideabrowser.com/idea-of-the-day",
+    "summary": "NIL deal management platform for college athletes. Centralizes brand partnerships, auto-extracts contract terms from DMs, tracks payments and deadlines, generates compliance reports.",
+    "scores": { "opportunity": 8, "problem": 9, "feasibility": 8, "timing": 8 },
+    "revenueEstimate": "$1M-$10M ARR",
+    "healthcareAngle": "Not directly healthcare — but the pattern is powerful: a governance + tracking layer for a chaotic new market with compliance requirements. That's exactly what Lumen SDK does for clinical AI. Validates the thesis that runtime governance layers are needed wherever high-stakes decisions meet regulatory pressure.",
+    "verdict": "skip",
+    "verdictNote": "Skip for building, but validates your thesis."
+  },
+  "articles": [
+    {
+      "title": "Healthcare IT Leaders Get Real on the State of AI in 2026",
+      "source": "HealthTech Magazine",
+      "date": "2026-01-28",
+      "url": "https://healthtechmagazine.net/article/2026/01/tech-trends-healthcare-it-leaders-get-real-state-ai-2026",
+      "takeaway": "Seven CIOs surveyed post-pilot. Nursing staff excited to leverage AI for care model reimagination. Orgs piloting agentic AI for chart review, discharge summaries, clinical registry abstraction. CHAI's head of operations quoted — your SDK aligns directly with their framework.",
+      "linkedinAngle": "The gap between pilot enthusiasm and production governance is where FORGE Health lives. These CIOs are excited — but who's ensuring defensibility at runtime?"
+    },
+    {
+      "title": "AI in Health Care: 26 Leaders Offer Predictions for 2026",
+      "source": "Chief Healthcare Executive",
+      "date": "2026-01-17",
+      "url": "https://www.chiefhealthcareexecutive.com/view/ai-in-health-care-26-leaders-offer-predictions-for-2026",
+      "takeaway": "26 executives predict wider, more intentional AI adoption. Key quote: 'Those who ground their decisions in shared, defensible information will move faster and earn far greater trust.' Patients already running notes through ChatGPT with zero governance.",
+      "linkedinAngle": "Defensible information is the new competitive advantage in healthcare AI. The question isn't whether to adopt — it's whether you can prove your AI made the right call."
+    },
+    {
+      "title": "From Agents to Governance: Essential AI Skills for Clinicians in the LLM Era",
+      "source": "Journal of Medical Internet Research",
+      "date": "2026-01-10",
+      "url": "https://www.jmir.org/2026/1/e86550",
+      "takeaway": "Peer-reviewed paper proposing a 3-tier competency framework for clinicians using LLMs. Covers bias detection, security, accountability, prompt engineering. The academic world is catching up to what Lumen SDK already does — runtime governance for clinical AI.",
+      "linkedinAngle": "Academia is building frameworks. But frameworks don't enforce themselves. What happens at the moment a clinical AI produces a recommendation? That's the gap."
+    }
+  ],
+  "linkedin": [
+    {
+      "author": "Joshua Liu, MD",
+      "authorTitle": "Healthcare AI Leader",
+      "url": "https://www.linkedin.com/posts/joshuapliu_what-an-amazing-healthcare-ai-executive-summit-activity-7423161290640121856-00Gj",
+      "insight": "15 takeaways from Nabla's Healthcare AI Executive Summit. Key points: (1) As ambient AI floods systems, automated Clinical Decision Support raises questions about over-controlling physicians — this is the exact tension Lumen SDK resolves. (2) AI may soon be like ultrasound — malpractice NOT to use it, making defensibility mandatory. (3) AI-draft patient messages only used 20% of time — clinicians need trust, not just output.",
+      "tags": ["governance", "clinical-ai", "decision-support"]
+    }
+  ],
+  "events": [],
+  "quote": {
+    "text": "Leaders who are willing to adjust and keep their vision future-focused will separate themselves from the pack in 2026.",
+    "author": "Tony Galati",
+    "source": "Forbes, Jan 26 2026",
+    "reflection": "You left Microsoft. You built Lumen. You're talking to an AI at 5am about go-to-market strategy. You're already separated from the pack. Now it's about finishing what you started."
+  },
+  "videos": []
+}
