@@ -1,0 +1,104 @@
+{
+  "date": "2026-02-01",
+  "idea": {
+    "title": "Bill Bot — Medical bill negotiator for patients too exhausted to fight back",
+    "source": "ideabrowser.com",
+    "url": "https://www.ideabrowser.com/idea-of-the-day",
+    "summary": "AI-powered medical bill negotiation service. Patients upload bills, OCR extracts line items, system flags overcharges against CMS benchmarks, then negotiates directly with hospital billing departments using proven scripts and regulatory leverage. Performance-based: 20% of savings, patient pays nothing upfront.",
+    "scores": { "opportunity": 9, "problem": 9, "feasibility": 5, "timing": 9 },
+    "revenueEstimate": "$1M-$10M ARR",
+    "healthcareAngle": "Directly healthcare. 100M Americans carry medical debt. The pattern here — OCR extraction, benchmark comparison, regulatory compliance checking, automated negotiation scripts — maps cleanly to what LUMEN SDK does at the clinical AI layer. Both are about injecting intelligence and defensibility into opaque healthcare processes. The difference: Bill Bot fights billing opacity; LUMEN SDK fights clinical AI opacity. Same thesis, different domain. Also validates that healthcare + AI + compliance = massive TAM.",
+    "verdict": "watch",
+    "verdictNote": "Don't build this — it's B2C and regulatory-heavy (feasibility score of 5 confirms). But the market signal is strong: healthcare consumers and providers both need AI-powered governance and transparency layers. LUMEN SDK sits at the enterprise/vendor layer of that same demand curve. Use this as a talking point with CIOs: 'If patients are demanding AI transparency on their bills, imagine the liability exposure on clinical decisions.'"
+  },
+  "articles": [
+    {
+      "title": "Successful AI Adoption Requires Meaningful Change Management",
+      "source": "Healthcare IT News",
+      "date": "2026-01-30",
+      "url": "https://www.healthcareitnews.com/news/successful-ai-adoption-requires-meaningful-change-management",
+      "takeaway": "Dr. Kari Yacisin (HIMSS26 workshop leader) argues that technical readiness ≠ human readiness. AI tools moving from pilots to everyday clinical use, but without transparency, governance, and clinician engagement, they'll erode trust and worsen burnout. Key quote: 'Successful AI adoption is fundamentally an issue of change management, not just a technology initiative.' This is the exact gap LUMEN SDK fills — governance at the decision point, not just at the deployment gate.",
+      "linkedinAngle": "Every hospital is rushing to deploy AI. Almost none are asking: 'What happens when a clinician doesn't trust the AI's recommendation?' Change management without decision assurance is just hope with a project plan. FORGE Health bridges both."
+    },
+    {
+      "title": "The Safe AI in Medicaid Alliance Can Help Providers Hone Their Tactics",
+      "source": "Healthcare IT News",
+      "date": "2026-01-30",
+      "url": "https://www.healthcareitnews.com/news/safe-ai-medicaid-alliance-can-help-providers-hone-their-tactics",
+      "takeaway": "SAMA (Safe AI in Medicaid Alliance) is translating NIST AI RMF into Medicaid-specific guidance — risk overlays, model state policies, use-case frameworks. They emphasize explainability, logging, and clear decision pathways. Key insight: 'Systems that incorporate explainability, logging and clear decision pathways can make processes more consistent and easier to review.' LUMEN SDK does this at runtime for clinical AI — SAMA validates the market need at the policy level.",
+      "linkedinAngle": "NIST AI RMF is the foundation. But who enforces it at runtime? SAMA is building the policy layer for Medicaid. LUMEN SDK builds the enforcement layer for clinical AI. Policy without runtime governance is a compliance checkbox, not a safety net."
+    },
+    {
+      "title": "Embedding Clinical Intelligence to Help Close Care Gaps",
+      "source": "Healthcare Finance News / HIMSS",
+      "date": "2026-01-30",
+      "url": "https://www.healthcareitnews.com/news/embedding-clinical-intelligence-help-close-care-gaps",
+      "takeaway": "Atlantic Health System partnered with Innovaccer to surface patient data at the point of care — resulting in 22.1% more quality care gaps closed. Managing 120+ EMR instances across ACOs. Key insight: clinical intelligence embedded in workflow (not bolted on) drives outcomes. This is the embed-at-runtime thesis that LUMEN SDK is built on. The next step beyond surfacing data is assuring the AI decisions made with that data.",
+      "linkedinAngle": "Atlantic Health closed 22% more care gaps by embedding clinical intelligence at the point of care. Now imagine embedding decision assurance alongside it — so every AI-informed action is scored, defensible, and traceable. That's the next frontier."
+    }
+  ],
+  "linkedin": [
+    {
+      "author": "Daniel Hallenbeck",
+      "authorTitle": "VP Strategy & Strategic Partnerships, Acentra Health (former CTO, NY State Medicaid)",
+      "url": "https://www.linkedin.com/posts/acentra-health_safeaiinmedicaid-sama-medicaid-activity-7371176912926429184-59lr/",
+      "insight": "Promoting SAMA's work on safe AI adoption in Medicaid. Emphasis on NIST AI RMF translation into practical Medicaid-specific resources. States need confidence to move faster with AI — not slower. Hallenbeck argues AI should enhance auditability and accountability, not undermine it. Directly aligned with LUMEN SDK's value prop: governance that accelerates adoption, not blocks it.",
+      "tags": ["governance", "medicaid", "NIST-AI-RMF", "safe-ai"]
+    },
+    {
+      "author": "Dr. Kari Yacisin",
+      "authorTitle": "Physician, University of New Mexico; HIMSS26 Workshop Leader",
+      "url": "https://www.healthcareitnews.com/news/successful-ai-adoption-requires-meaningful-change-management",
+      "insight": "Leading HIMSS26 workshop on human-centered AI adoption. Core message: organizations need to assess human readiness alongside technical readiness. Clinician trust, autonomy, and well-being must be protected as AI rolls out. This is the demand signal for decision assurance tools — clinicians need to trust AI outputs, and trust requires transparency + governance at runtime.",
+      "tags": ["change-management", "clinician-trust", "HIMSS26", "governance"]
+    }
+  ],
+  "events": [
+    {
+      "name": "ViVE 2026",
+      "date": "Feb 22-25, 2026",
+      "location": "Los Angeles, CA",
+      "description": "Premier digital health event. 3 weeks away — decision time for attendance. Ideal for LUMEN SDK positioning, CIO networking, and gauging market readiness for runtime governance tools.",
+      "url": "https://hlth.com/events/vive/",
+      "priority": "high"
+    },
+    {
+      "name": "HIMSS26 Global Health Conference",
+      "date": "Mar 9-12, 2026",
+      "location": "Las Vegas, NV",
+      "description": "40,000+ attendees. Multiple AI governance sessions including SAMA and change management workshops. CHAI presence confirmed. LUMEN SDK's natural home event. Key sessions: Yacisin's change management workshop, Atlantic Health's clinical intelligence talk, SAMA panel.",
+      "url": "https://www.himssconference.com",
+      "priority": "high"
+    },
+    {
+      "name": "Becker's Health IT + Digital Health + RCM Annual Meeting",
+      "date": "Apr 2025 (2026 dates TBC)",
+      "location": "Chicago, IL",
+      "description": "Strong CIO/CFO attendance. Revenue cycle + AI governance intersection. Watch for 2026 date announcement — good venue for SDK pitch to decision-makers who own both clinical and financial risk.",
+      "url": "https://www.beckershospitalreview.com/health-it-annual-meeting",
+      "priority": "medium"
+    },
+    {
+      "name": "CHIME Fall Forum 2026",
+      "date": "Fall 2026 (dates TBC)",
+      "location": "TBC",
+      "description": "College of Healthcare Information Management Executives. Intimate CIO-focused event. Ideal for relationship-building with target decision-makers. Watch for date announcements.",
+      "url": "https://chimecentral.org/",
+      "priority": "medium"
+    }
+  ],
+  "videos": [
+    {
+      "title": "HIMSS26 Preview: Empowering Providers, Protecting Humanity — Leading AI Adoption in Healthcare",
+      "source": "Healthcare IT News / HIMSS",
+      "url": "https://www.healthcareitnews.com/news/successful-ai-adoption-requires-meaningful-change-management",
+      "description": "Preview of Dr. Kari Yacisin's HIMSS26 workshop on human-centered AI adoption. Covers Kotter's 8-step change model applied to healthcare AI, readiness assessment frameworks, and advocacy for responsible AI that protects clinician autonomy. Not a video per se but a detailed workshop preview — worth reading as prep material for HIMSS26 and for shaping FORGE Health's positioning around 'governance that empowers, not restricts.'"
+    }
+  ],
+  "quote": {
+    "text": "The best time to plant a tree was 20 years ago. The second best time is now. But the real question is: are you planting the right tree?",
+    "author": "Adapted proverb",
+    "source": "Entrepreneurial wisdom",
+    "reflection": "Sean — you've planted the tree. LUMEN exists. The SDK architecture is built. The market signals this week are screaming: SAMA translating NIST into Medicaid guidance, HIMSS26 dedicating workshops to AI governance, Atlantic Health proving embedded intelligence closes care gaps. The tree is right. Now it's about watering it — getting in front of the CIOs who are attending these events, with a demo that shows runtime governance isn't theoretical. It's built. February is the month to shift from building to positioning. ViVE is 3 weeks out. HIMSS is 5 weeks out. The window is open."
+  }
+}
