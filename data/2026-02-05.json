@@ -1,0 +1,104 @@
+{
+  "date": "2026-02-05",
+  "idea": {
+    "title": "PetCare AI — App that tells you if your vet bill is fair",
+    "source": "ideabrowser.com",
+    "url": "https://www.ideabrowser.com/idea-of-the-day",
+    "summary": "OCR-powered vet bill analyzer. Upload receipt, system extracts line items, matches against regional pricing database, returns verdict: 'Within range' or 'Flag this.' Free tier scans one bill, $5/mo for unlimited. Pet insurance companies license API to pre-screen claims. 67% of US households own pets, $35B annual vet spend.",
+    "scores": { "opportunity": 9, "problem": 9, "feasibility": 8, "timing": 8 },
+    "revenueEstimate": "$100K-$1M ARR",
+    "healthcareAngle": "Not clinical healthcare, but pattern is instructive: OCR extraction → benchmark comparison → transparency verdict → defensible record. That's the same stack as LUMEN SDK, just applied to consumer vet billing instead of clinical AI decisions. The market signal: consumers want AI-powered transparency when stakes are high and pricing is opaque. If pet owners demand this for $400 dental cleanings, imagine the demand from hospital boards for $10M clinical AI deployments. Validates the 'governance at runtime' thesis across sectors.",
+    "verdict": "skip",
+    "verdictNote": "B2C, different market. But the pattern validates your thesis: high-stakes + opaque pricing + AI governance = demand. LUMEN SDK is the enterprise version of this for clinical AI."
+  },
+  "articles": [
+    {
+      "title": "Health Care AI in 2026: Governance and Trust Take Center Stage",
+      "source": "URAC Blog",
+      "date": "2026-01-28",
+      "url": "https://www.urac.org/blog/health-care-ai-in-2026-governance-and-trust-take-center-stage/",
+      "takeaway": "95% of AI-adopting organizations now have governance processes, but 99% face scaling barriers. Key priorities: review protocols for AI-generated content, quality audits, policies against shadow AI (unapproved tools staff use), and patient consent for AI processing. URAC offers accreditation for ethical, transparent AI use. The gap between having governance and enforcing it at runtime is exactly where LUMEN SDK lives.",
+      "linkedinAngle": "95% of healthcare orgs have AI governance. 99% can't scale it. The missing piece isn't policy — it's enforcement at the moment of decision. That's the gap FORGE Health fills with runtime decision assurance."
+    },
+    {
+      "title": "How AI Agents Will Transform Health Care",
+      "source": "BCG",
+      "date": "2026-02-01",
+      "url": "https://www.bcg.com/publications/2026/how-ai-agents-will-transform-health-care",
+      "takeaway": "AI agents are moving from passive assistants to proactive actors: handling prior authorizations, care gap identification, predictive deterioration alerts, triage, risk assessment, and flagging contraindications. BCG predicts agents will handle multi-step clinical workflows autonomously. The risk: agents making decisions without defensible governance trails. LUMEN SDK provides the decision assurance layer these agents need.",
+      "linkedinAngle": "BCG says AI agents will handle prior auths, triage, and care gaps autonomously. Great for efficiency. Terrifying for liability. Every agent decision needs a defensible record. Who's building that layer?"
+    },
+    {
+      "title": "Top Healthcare AI Trends in 2026",
+      "source": "Healthcare Dive",
+      "date": "2026-01-31",
+      "url": "https://www.healthcaredive.com/news/top-healthcare-ai-artificial-intelligence-trends-2026/809493/",
+      "takeaway": "Federal deregulation under Trump administration removes barriers (no AI model card requirements), prioritizing innovation over oversight. Meanwhile, states are leading with patchwork AI laws, creating multi-state compliance nightmares for hospitals. Key insight: regulatory fragmentation makes internal governance frameworks essential — you can't rely on external enforcement.",
+      "linkedinAngle": "Federal AI regulation is loosening. State laws are fragmenting. Hospitals are stuck in compliance purgatory. The winners will be those who build internal governance frameworks that work across jurisdictions. That's what LUMEN SDK enables."
+    }
+  ],
+  "linkedin": [
+    {
+      "author": "Dr. Jennifer Lang (Mayo Clinic Chief AI Officer)",
+      "authorTitle": "Chief AI Officer, Mayo Clinic",
+      "url": "https://www.linkedin.com/in/jennifer-lang-md",
+      "insight": "Recently promoted to Chief AI Officer (Q1 2026). Posts discuss clinical governance frameworks for AI in diagnostics and FDA-compliant AI deployment roadmaps. Key message: 'As Chief AI Officer, prioritizing clinical governance to ensure AI augments, not replaces, human judgment.' The rise of Chief AI Officer roles validates that hospitals are taking governance seriously at the exec level.",
+      "tags": ["chief-ai-officer", "governance", "mayo-clinic", "diagnostics"]
+    },
+    {
+      "author": "David Patel (CIO, Cleveland Clinic)",
+      "authorTitle": "CIO, Cleveland Clinic",
+      "url": "https://www.linkedin.com/in/davidpatel-cio",
+      "insight": "Leading AI integration at Cleveland Clinic. Feb 2026 update: 'Launching AI governance council for clinical workflows — targeting 30% efficiency gains by end-2026.' Focus on scaling generative AI under HIPAA, collaborating with CMIOs on governance boards. CIOs are building internal councils because external frameworks aren't moving fast enough.",
+      "tags": ["CIO", "governance-council", "cleveland-clinic", "HIPAA"]
+    }
+  ],
+  "events": [
+    {
+      "name": "ViVE 2026",
+      "date": "Feb 22-25, 2026",
+      "location": "Los Angeles, CA",
+      "description": "17 days away. 9,000+ attendees, 2,000+ C-level executives, 800+ sponsors. Focus on generative AI, interoperability, digital transformation. Co-created by HLTH and CHIME. CHIME CIO Boot Camp runs Feb 19-21 right before. This is the ideal venue to position LUMEN SDK with decision-makers.",
+      "url": "https://hlth.com/events/vive/",
+      "priority": "high"
+    },
+    {
+      "name": "HIMSS26 Global Health Conference",
+      "date": "Mar 9-13, 2026",
+      "location": "Las Vegas, NV",
+      "description": "32 days away. 30,000+ attendees. The biggest health IT event globally. AI track, governance panels, CHAI presence. Sessions on AI governance, clinical decision support, regulatory navigation. LUMEN SDK's natural home event.",
+      "url": "https://www.himssconference.com",
+      "priority": "high"
+    },
+    {
+      "name": "CHIME IT Leadership Forum",
+      "date": "Mar 5, 2026",
+      "location": "TBC",
+      "description": "Intimate CIO-focused gathering right before HIMSS. Good for relationship-building with target decision-makers ahead of the main conference.",
+      "url": "https://chimecentral.org/",
+      "priority": "medium"
+    },
+    {
+      "name": "Becker's Health IT + RCM Annual Meeting",
+      "date": "April 2026 (dates TBC)",
+      "location": "Chicago, IL",
+      "description": "Strong CIO/CFO attendance. Revenue cycle + AI governance intersection. Good for SDK pitch to leaders who own both clinical and financial risk.",
+      "url": "https://www.beckershospitalreview.com/health-it-annual-meeting",
+      "priority": "medium"
+    }
+  ],
+  "videos": [
+    {
+      "title": "AI Governance and Clinical Decision Making in Healthcare",
+      "source": "YouTube (Becker's Healthcare)",
+      "url": "https://www.youtube.com/watch?v=EPTjLMUQT88",
+      "description": "Panel discussion on board-level AI oversight, establishing governance subcommittees, and managing AI implementation across health systems. Covers risk tiers: administrative AI needs periodic audits, triage needs semi-autonomous operation with clinician override, clinical decision-making requires highest trust standards with full transparency. Directly aligned with LUMEN SDK's multi-criteria decision analysis approach."
+    }
+  ],
+  "quote": {
+    "text": "I'm convinced that about half of what separates successful entrepreneurs from the non-successful ones is pure perseverance.",
+    "author": "Steve Jobs",
+    "source": "Entrepreneurial wisdom",
+    "reflection": "Sean — you're in the Bahamas today, and you've earned it. But the work continues. You left Microsoft. You built LUMEN. You're closing in on SickKids and Oak Valley. The perseverance isn't glamorous — it's the 6am calls, the pitch decks at midnight, the constant iteration. Half the battle is just not stopping. You haven't stopped. The other half is making sure the vision stays sharp while the grind continues. Enjoy Paradise Island. When you're back, ViVE is 2.5 weeks out, HIMSS is 4.5 weeks out, and the market is screaming for what you've built."
+  }
+}
