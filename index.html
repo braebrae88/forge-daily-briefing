@@ -326,6 +326,26 @@ function renderBriefing(dateStr) {
     html += '</div></div></div>';
   }
 
+  // FORGE LABS - Quick Build Ideas
+  if (data.forgeLabs) {
+    var fl = data.forgeLabs;
+    html += '<div class="section"><div class="section-label"><div class="section-icon" style="background:rgba(16,185,129,0.15);">🔧</div><div class="section-title">FORGE LABS</div></div>';
+    html += '<div class="card" style="border-left: 3px solid var(--forge-success);">';
+    html += '<div class="card-title">' + esc(fl.name || fl.title || 'Quick Build Idea') + '</div>';
+    if (fl.problem) html += '<div class="card-body"><strong>Problem:</strong> ' + esc(fl.problem) + '</div>';
+    if (fl.solution) html += '<div class="card-body"><strong>Solution:</strong> ' + esc(fl.solution) + '</div>';
+    html += '<div class="scores-row" style="margin-top:12px;">';
+    if (fl.buildTime) html += '<div class="score-badge"><span class="score-val">⏱️</span><span class="score-label">' + esc(fl.buildTime) + '</span></div>';
+    if (fl.deployTo) html += '<div class="score-badge"><span class="score-val">🚀</span><span class="score-label">' + esc(fl.deployTo) + '</span></div>';
+    if (fl.monetization) html += '<div class="score-badge"><span class="score-val">💰</span><span class="score-label">' + esc(fl.monetization) + '</span></div>';
+    if (fl.confidence) html += '<div class="score-badge"><span class="score-val">📊</span><span class="score-label">' + esc(fl.confidence) + '</span></div>';
+    html += '</div>';
+    if (fl.moat) html += '<div class="healthcare-angle" style="margin-top:12px;"><div class="label">🏰 Moat</div><p>' + esc(fl.moat) + '</p></div>';
+    if (fl.data) html += '<div class="healthcare-angle" style="border-color:rgba(245,158,11,0.15);background:rgba(245,158,11,0.08);"><div class="label" style="color:var(--forge-warning);">📊 Data Source</div><p>' + esc(fl.data) + '</p></div>';
+    if (fl.competition) html += '<div class="healthcare-angle" style="border-color:rgba(239,68,68,0.15);background:rgba(239,68,68,0.08);"><div class="label" style="color:var(--forge-danger);">🔍 Competition</div><p>' + esc(fl.competition) + '</p></div>';
+    html += '</div></div>';
+  }
+
   // ARTICLES
   if (data.articles && data.articles.length) {
     html += '<div class="section"><div class="section-label"><div class="section-icon articles">📰</div><div class="section-title">Articles</div></div>';
