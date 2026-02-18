@@ -1,0 +1,90 @@
+{
+  "date": "2026-02-18",
+  "generatedAt": "2026-02-18T06:45:00-05:00",
+  "ideaBrowser": {
+    "status": "blocked",
+    "note": "IdeaBrowser.com blocked by Vercel security checkpoint — unable to scrape today's idea."
+  },
+  "forgeLabs": {
+    "name": "AI Governance Readiness Scorecard (Teams App)",
+    "problem": "48% of hospitals aren't operationally ready for AI at scale (Guidehouse-HIMSS Feb 2026). CIOs need a fast self-assessment tool — not a 6-month consulting engagement — to identify governance gaps before Joint Commission/CHAI audits start.",
+    "solution": "A lightweight Microsoft Teams app that walks hospital leaders through the 7 CHAI governance pillars with scored questions, generates a readiness scorecard PDF, benchmarks against anonymized peer data, and flags priority gaps with remediation steps.",
+    "moat": "FORGE's deep CHAI/NIST AI RMF expertise baked into scoring logic. Benchmarking data grows with usage (network effect). First-mover in Teams App Store for healthcare AI governance.",
+    "dataSource": "Joint Commission-CHAI framework (public), NIST AI RMF (public), state AI law tracker (public regulatory feeds), anonymized aggregate scores from users.",
+    "competitionCheck": "No healthcare AI governance self-assessment in Teams App Store. Compliance tools exist (Vanta, Drata) but none healthcare-AI-specific. Consulting firms charge $50K+ for what this does in 20 minutes.",
+    "buildTime": "2-3 nights — questionnaire logic + PDF generation + Teams manifest",
+    "deployTo": "Microsoft Teams App Store (primary), Azure Marketplace, web standalone",
+    "monetization": "Free tier: 1 assessment/quarter. Pro: $49/org/month (unlimited assessments, benchmarking, remediation playbooks). Enterprise: custom.",
+    "confidence": "High",
+    "whyNow": "Joint Commission-CHAI voluntary certification coming later 2026. Hospitals will scramble to self-assess before audits begin. First-mover window is NOW."
+  },
+  "articles": [
+    {
+      "title": "Survey: Nearly 50% of Hospitals Aren't Ready to Implement AI at Scale",
+      "source": "PRNewswire / Guidehouse-HIMSS",
+      "date": "2026-02-12",
+      "dateVerified": true,
+      "url": "https://www.prnewswire.com/news-releases/survey-nearly-50-of-hospitals-arent-ready-to-implement-ai-at-scale-302685833.html",
+      "takeaway": "78% of health systems have AI projects but only 52% feel operationally ready. 'Execution paralysis' is the top barrier — exactly what FORGE's Activation Bridge solves.",
+      "linkedInAngle": "Share the stat, ask: 'Is your health system in the 48% that aren't ready? Here's what execution paralysis actually looks like — and how to break through it.'"
+    },
+    {
+      "title": "The AI Wild West Is Over: Why 2026 Is the Year Health Systems Must Take Control",
+      "source": "Premier Inc.",
+      "date": "2026-02-14",
+      "dateVerified": true,
+      "url": "https://premierinc.com/newsroom/the-ai-wild-west-is-over-why-2026-is-the-year-health-systems-must-take-control",
+      "takeaway": "71% of US hospitals have AI but fragmented data, siloed pilots, and limited governance are the blockers. Premier says move from experimentation to enterprise-wide foundation — LUMEN SDK fits this narrative perfectly.",
+      "linkedInAngle": "Quote the 'wild west' framing. Position: 'Governance at runtime isn't optional anymore. The hospitals that build decision assurance into their AI pipeline now will be the ones still standing when audits come.'"
+    },
+    {
+      "title": "Healthcare AI Regulation: New Compliance Requirements Every Provider Must Know",
+      "source": "Jimerson Birr (law firm analysis)",
+      "date": "2026-02-11",
+      "dateVerified": true,
+      "url": "https://www.jimersonfirm.com/blog/2026/02/healthcare-ai-regulation-2025-new-compliance-requirements-every-provider-must-know/",
+      "takeaway": "Joint Commission + CHAI released 7-pillar AI governance framework. Most medical AI is never reviewed by any regulator. Voluntary certification program coming later 2026. States creating patchwork laws (CA, TX, CO, NY).",
+      "linkedInAngle": "Focus on the regulatory gap: 'Most clinical AI is never reviewed by a federal regulator. The Joint Commission just told you what good governance looks like — 7 pillars. How many does your organization cover?'"
+    }
+  ],
+  "linkedInPulse": [
+    {
+      "note": "Search returned general trends rather than specific LinkedIn posts. Key voices to watch: Cleveland Clinic CDO on AI scribes, Guidehouse healthcare AI leads on execution paralysis findings, Premier Inc leadership on 'wild west' governance narrative.",
+      "suggestedAction": "Engage with Guidehouse-HIMSS survey posts — comment with FORGE's Activation Bridge perspective on execution paralysis."
+    }
+  ],
+  "events": [
+    {
+      "name": "HIMSS Global Health Conference 2026 (HIMSS26)",
+      "date": "March 9-12, 2026",
+      "location": "Las Vegas, NV",
+      "url": "https://www.himssconference.com",
+      "relevance": "25,000+ attendees, AI governance track, CIO networking. Top priority for FORGE visibility.",
+      "action": "Register if not already. Plan CIO meeting targets."
+    },
+    {
+      "name": "Becker's AI Summit 2026",
+      "date": "April 13, 2026",
+      "location": "Chicago, IL (part of 16th Annual Meeting Apr 13-16)",
+      "url": "https://conferences.beckershospitalreview.com/april-annual-meeting-2026/AISummit",
+      "relevance": "Executive strategy focus, peer-to-peer format. Real-world AI adoption case studies.",
+      "action": "Strong fit for Activation Bridge conversations."
+    },
+    {
+      "name": "AI for Hospitals & Health Plans Summit",
+      "date": "April 27-28, 2026",
+      "location": "New Orleans, LA (The Roosevelt, Waldorf Astoria)",
+      "url": "https://www.wcforum.com/conferences/ai-health",
+      "relevance": "Smaller, intimate. Clinical decision support + predictive analytics focus. Direct buyer audience.",
+      "action": "Consider speaking submission or attendance."
+    }
+  ],
+  "video": {
+    "note": "No single verified recent video found this cycle. Recommended search: check HIMSS YouTube channel and Becker's Healthcare podcast for Feb 2026 AI governance content.",
+    "suggestedSearch": "HIMSS TV AI governance 2026, Becker's Healthcare AI podcast February 2026"
+  },
+  "mindset": {
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now. — Chinese Proverb",
+    "reflection": "Sean — today you walk into OVH with 9 people in the room who are about to see what healthcare AI activation actually looks like. Not slides. Not theory. A working prototype with scenarios built for THEIR ED. 20 years of healthcare tech experience put you in this room. FORGE is the tree. Today you water it."
+  }
+}
